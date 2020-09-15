@@ -1,0 +1,312 @@
+\documentclass[12pt]{amsart}
+
+\renewcommand{\baselinestretch}{1.2}
+
+\usepackage{graphicx}
+\usepackage[compress]{cite}
+\usepackage{charter}
+\usepackage[T1]{fontenc}
+\paperheight=297mm
+\paperwidth=210mm
+\textwidth=136mm
+\textheight=205mm
+
+%% FOR THE WEB
+\usepackage[a4paper,top=46mm,bottom=46mm,left=32mm,right=32mm]{geometry}
+
+%% FOR REPRINTS AND PRINTING
+%\usepackage[a4paper,twoside,top=20mm,bottom=72mm,left=22mm,right=52mm]{geometry}
+
+
+
+\setcounter{page}{1}
+%%% put your macros below %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{remark}{Remark}
+\newtheorem{corollary}{Corollary}
+\newtheorem{example}{Example}
+\newtheorem{proposition}{Proposition}
+
+\numberwithin{equation}{section}
+\numberwithin{definition}{section}
+\numberwithin{theorem}{section}
+\numberwithin{lemma}{section}
+\numberwithin{remark}{section}
+\numberwithin{corollary}{section}
+\numberwithin{proposition}{section}
+
+
+\newcommand{\real}{\mbox{$\;\mathrm{Re}$}\,}
+\newcommand{\imag}{\mbox{$\;\mathrm{Im}$}\,}
+\newcommand{\U}{\mathcal U}
+\newcommand{\A}{\mathcal A}
+\newcommand{\C}{\mathbb C}
+\newcommand{\R}{\mathbb R}
+\newcommand{\D}{\mathbb D}
+\newcommand{\al}{\alpha}
+\newcommand{\s}{\mathcal S}
+\newcommand{\K}{\mathcal K}
+\newcommand{\N}{\mathbb N}
+\newcommand{\G}{\mathcal G}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\CR}{\mathcal{R}}
+\numberwithin{equation}{section}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% type the title below %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title[\uppercase{short title}]{\uppercase{title}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% type author(s) address below %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author[F. Author]{First Author$^1$}
+\address{
+Department of ...\newline \indent
+University of ...\newline \indent
+address}
+\email{xxx@yyy.zz}
+
+\author[S. Author]{Second Author}
+\address{
+Department of ...\newline \indent
+University of ...\newline \indent
+address}
+\email{xxx@yyy.zz}
+
+\author[T. Author]{Third Author}
+\address{
+Department of ...\newline \indent
+University of ...\newline \indent
+address}
+\email{xxx@yyy.zz}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% AMS 2010 subject classification  %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subjclass[2010]{???, ???}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% type key words below (separated by comma) %%%%%%%%%%%%%%
+
+\keywords{key word 1, key word 2, key word 3,...}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% type your dedicatory below (optional) %%%%%%%%%%%%%%%%%%
+
+%\dedicatory{galley of proofs}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% YOUR PAPER STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\footnotetext[1]{\textit{corresponding author}}
+
+\vspace*{-10mm}
+
+\noindent\rule[-4.25mm]{150mm}{1.5pt}
+
+\noindent\rule{150mm}{.7pt}
+
+\vspace{-2.8mm}
+
+\begin{figure}[!h]
+\begin{minipage}[c]{30mm}
+\vspace{-2mm}
+\hspace{1mm}
+%\includegraphics[width=30mm]{logo1.eps}
+\end{minipage}
+%\hspace{-5mm}
+\begin{minipage}[c]{112mm}
+\vspace{1mm}
+\hspace{.05mm}
+\footnotesize{{Advances in Mathematics: Scientific Journal {\bf X} (20YY), no.Y, \thepage--\pageref{lastpage}}}
+
+\hspace*{1mm}\footnotesize{{ISSN: 1857-8365 (printed); 1857-8438 (electronic)}}\\
+\hspace*{1mm}\footnotesize{https://doi.org/10.37418/amsj.X.Y.Z} \vspace{2mm}\,\,
+\hspace{\stretch{1}}% UDC: ??? \hspace{6.5mm}%  \hskip1in{\small   http:/$\!$/ nekoj.server.mk }  \\ \hline
+\end{minipage}
+\end{figure}
+\vspace{-10.2mm}
+
+\noindent\rule{150mm}{.7pt}
+
+%\vspace{-7mm}
+\noindent\rule[4mm]{150mm}{1.5pt}
+
+\vspace{20mm}
+
+
+
+\begin{abstract}
+Let $\mathcal{A}$ be the class of analytic  functions $f(z)$ in the open unit disk $\mathbb{U}$. Furthermore, the subclass $\mathcal{B}$ of $\mathcal{A}$ concerned with the class of uniformly convex functions or the class $\mathcal{S}_p$ is defined. By virtue of some properties of uniformly convex functions and the class $\mathcal{S}_p$, an extreme function of the class $\mathcal{B}$ and its power series are considered.
+\end{abstract}
+
+\maketitle
+
+
+\section{First section: important}
+
+
+When preparing the manuscript you should take care for the following:
+\begin{itemize}
+  \item[(i)] All labeled expressions, such as \eqref{eq-1}, \textbf{should be} referenced within the paper.
+%
+  \item[(ii)] When preparing the bibliography you \textbf{should} follow the style given at the end of this template. For book see \cite{atkinson} and for papers see \cite{G, V}.
+%
+  \item[(iii)] All items given in the bibliography (at the end of the paper) \textbf{should be} cited somewhere in the paper.
+%
+  \item[(iv)] \textbf{Do not change} the preamble of the LaTeX file, just add extra commands that you need.
+%
+  \item[(v)] For the definitions, lemmas, theorems, corollaries, remarks, examples and propositions, \textbf{use the style} given in the second section.
+%
+  \item[(vi)] When itemising you should do it as here.
+\end{itemize}
+
+
+\vspace{5mm}
+\section{Second section}
+
+When typing not labeled expression, you should do it like this:
+\[ f(x) = x^2. \]
+When typing labeled expression, you should do it like this:
+\begin{equation}\label{eq-1}
+f(x) = \sin x.
+\end{equation}
+
+Referencing a labeled expression is done with \eqref{eq-1}.
+
+
+
+\vspace{5mm}
+\section{Examples}
+
+Example of a definition.
+
+\begin{definition}\label{def-1}
+Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+\end{definition}
+
+
+Example of a lemma.
+
+\begin{lemma}\label{lem-1}
+Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+\end{lemma}
+
+
+
+Example of a theorem and proof.
+
+\begin{theorem}\label{th-1}
+Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+\end{theorem}
+
+\begin{proof}
+Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+\end{proof}
+
+Example of a corollary.
+
+\begin{corollary}\label{cor-1}
+Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+\end{corollary}
+
+
+Example of a remark.
+
+\begin{remark}\label{rem-1}
+Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+\end{remark}
+
+
+
+Example of an example.
+
+\begin{example}\label{ex-1}
+Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+\end{example}
+
+
+Example of a proposition.
+
+\begin{proposition}\label{prop-1}
+Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+\end{proposition}
+
+\textbf{Example of a figure.}
+\begin{figure}[h!]
+\centering
+%\includegraphics[scale=0.60]{Figure 1.eps}
+\caption{Beautiful example on figure}\label{fig-1}
+\end{figure}
+
+
+\textbf{Example of a table.}
+
+\begin{table}[h!]
+\centering
+\caption{Description of the table}
+\begin{tabular}{|p{2cm}| c c c|}
+ \hline
+ Col1 & Col2 & Col2 & Col3 \\ [0.5ex]
+ \hline
+ Some text comes here  & 6 & 87837 & 787 \\ \hline
+ 1 & 7 & 78 & 5415 \\ \hline
+ 2 & 545 & 778 & 7507 \\ \hline
+ 3 & 545 & 18744 & 7560 \\ \hline
+ 4 & 88 & 788 & 6344 \\ \hline
+\end{tabular}
+\label{table:1}
+\end{table}
+
+
+
+
+\vspace{5mm}
+\section*{acknowledgment}
+Optional acknowledgment.
+
+
+\vspace{5mm}
+
+%**************************************************************
+\begin{thebibliography}{99}
+
+\bibitem{atkinson}
+{\small {\sc K. E. Atkinson}}: {\it An Introduction to Numerical Analysis}, 2nd ed., Wiley, New York, 1989.
+
+\bibitem{G}
+{\small {\sc  A. W. Goodman}}:
+{\it On uniformly convex functions},  Annal. Polon. Math., {\bf 56}(1991), 87 -- 92.
+
+\bibitem{V}
+{\small {\sc  F. Vajzovi\'{c}, A. \v {S}ahovi\'{c}}}: {\it Cosine operator functions and Hilbert transformations},  Novi Sad J. Math. {\bf 35}(2) (2005), 41--55.
+
+\end{thebibliography}
+
+
+\label{lastpage}
+\end{document}
